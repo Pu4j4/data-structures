@@ -1,0 +1,28 @@
+An algorithm is defined as a finite set of instructions that, if followed, performs a particular task. All algorithms must satisfy the following criteria
+
+Input. An algorithm has zero or more inputs, taken or collected from a specified set of objects.
+
+Output. An algorithm has one or more outputs having a specific relation to the inputs.
+
+Definiteness. Each step must be clearly defined; Each instruction must be clear and unambiguous.
+
+Finiteness. The algorithm must always finish or terminate after a finite number of steps.
+
+Effectiveness. All operations to be accomplished must be sufficiently basic that they can be done exactly and in finite length.
+
+We can depict an algorithm in many ways.
+
+    Natural language: implement a natural language like English
+    Flow charts: Graphic representations denoted flowcharts, only if the algorithm is small and simple.
+    Pseudo code: This pseudo code skips most issues of ambiguity; no particularity regarding syntax programming language.
+
+Example 1: Algorithm for calculating factorial value of a number
+
+Step 1: a number n is inputted
+Step 2: variable final is set as 1
+Step 3: final<= final * n
+Step 4: decrease n
+Step 5: verify if n is equal to 0
+Step 6: if n is equal to zero, goto step 8 (break out of loop)
+Step 7: else goto step 3
+Step 8: the result final is printed
