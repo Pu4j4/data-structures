@@ -1,0 +1,32 @@
+1. Singly-linked list
+
+Traversal of items can be done in the forward direction only due to the linking of every node to its next node.
+
+Representation of Single linked list:
+
+    A Node Creation:
+
+// A Single linked list node
+class Node {
+public:
+	int data;
+	Node* next;
+};
+
+Commonly used operations on Singly Linked List:
+
+The following operations are performed on a Single Linked List
+
+    Insertion: The insertion operation can be performed in three ways. They are as follows…
+        Inserting At the Beginning of the list
+        Inserting At End of the list
+        Inserting At Specific location in the list
+
+    Deletion: The deletion operation can be performed in three ways. They are as follows…
+        Deleting from the Beginning of the list
+        Deleting from the End of the list
+        Deleting a Specific Node
+
+    Search: It is a process of determining and retrieving a specific node either from the front, the end or anywhere in the list.
+    
+    Display: This process displays the elements of a Single-linked list.
