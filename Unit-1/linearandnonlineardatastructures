@@ -1,0 +1,21 @@
+Linear Data Structure:
+
+    Those data structures where the data elements are organised in some sequence is called linear data structure.
+
+    Here the various operations on a data structure are possible only in a sequence i.e. we cannot insert the element into any location of our choice. E.g. A new element in a queue can come only at the end, not anywhere else.
+
+    Examples of linear data structures are array, stacks, queue, and linked list.
+    They can be implemented in memory using two ways.
+
+    The first method is by having a linear relationship between elements by means of sequential memory locations.
+
+    The second method is by having a linear relationship by using links.
+
+    Non-Linear Data Structure:
+
+    When the data elements are organised in some arbitrary function without any sequence, such data structures are called non-linear data structures.
+    
+    Examples of such type are trees, graphs.
+
+    The relationship of adjacency is not maintained between elements of a non-linear data structure.
+
