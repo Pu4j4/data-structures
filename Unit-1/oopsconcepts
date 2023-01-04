@@ -1,0 +1,45 @@
+Object-oriented programming – As the name suggests uses objects in programming. Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism, etc in programming. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+
+Characteristics of an Object Oriented Programming language:
+
+1.Class
+2.Objects
+3.Encapsulation
+4.Abstraction
+5.Polymorphism
+6.Inheritance
+7.Dynamic Binding
+8.Message passing
+
+Class: The building block of C++ that leads to Object-Oriented programming is a Class. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A class is like a blueprint for an object.
+
+Object: An Object is an identifiable entity with some characteristics and behaviour. An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
+
+Encapsulation: In normal terms, Encapsulation is defined as wrapping up of data and information under a single unit. In Object-Oriented Programming, Encapsulation is defined as binding together the data and the functions that manipulate them.Encapsulation also leads to data abstraction or hiding. As using encapsulation also hides the data.
+
+Abstraction: Data abstraction is one of the most essential and important features of object-oriented programming in C++. Abstraction means displaying only essential information and hiding the details. Data abstraction refers to providing only essential information about the data to the outside world, hiding the background details or implementation.
+
+Polymorphism: The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.A person at the same time can have different characteristic. Like a man at the same time is a father, a husband, an employee. So the same person posses different behaviour in different situations. This is called polymorphism.
+
+An operation may exhibit different behaviours in different instances. The behaviour depends upon the types of data used in the operation.
+
+C++ supports operator overloading and function overloading.
+
+-Operator Overloading: The process of making an operator to exhibit different behaviours in different instances is known as operator overloading.
+-Function Overloading: Function overloading is using a single function name to perform different types of tasks.
+Polymorphism is extensively used in implementing inheritance.
+
+Inheritance: The capability of a class to derive properties and characteristics from another class is called Inheritance. Inheritance is one of the most important features of Object-Oriented Programming.
+
+-Sub Class: The class that inherits properties from another class is called Sub class or Derived Class.
+-Super Class:The class whose properties are inherited by sub class is called Base Class or Super class.
+-Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
+
+Dynamic Binding: In dynamic binding, the code to be executed in response to function call is decided at runtime.
+
+Message Passing: Objects communicate with one another by sending and receiving information to each other. A message for an object is a request for execution of a procedure and therefore will invoke a function in the receiving object that generates the desired results. Message passing involves specifying the name of the object, the name of the function and the information to be sent.
+
+
+
+
+
