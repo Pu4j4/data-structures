@@ -18,5 +18,5 @@ int main()
 }
 double cube(double num)
 {
-    return (num * num * num *);
+    return (num * num * num);
 }
