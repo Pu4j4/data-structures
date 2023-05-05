@@ -1,29 +1,30 @@
-#include<iostream>
+#include <iostream.h>
 using namespace std;
 
 int main()
 {
-    int i,n,x,sum=0;
-    float avg;
+    int n, i;
+    float num[100], sum=0.0, average;
 
-    cout<<"Enter How many numbers you want:: ";
-    cin>>n;
+    cout << "Enter the numbers of data: ";
+    cin >> n;
 
-    for(i=1;i<=n;++i)
+    while (n > 100 || n <= 0)
     {
-        cout<<"\nEnter number "<<i<<" :: ";
-        cin>>x;
-
-        sum+=x;
+        cout << "Error! number should in range of (1 to 100)." << endl;
+        cout << "Enter the number again: ";
+        cin >> n;
     }
 
-    avg=(float)sum/(float)n;
+    for(i = 0; i < n; ++i)
+    {
+        cout << i + 1 << ". Enter number: ";
+        cin >> num[i];
+        sum += num[i];
+    }
 
-    cout<<"\n\nSum of "<<n<<" Numbers :: "<<sum;
-
-    cout<<"\n\nAverage of "<<n<<" Numbers :: "<<avg;
-
-    cout<<"\n";
+    average = sum / n;
+    cout << "Average = " << average;
 
     return 0;
 }
